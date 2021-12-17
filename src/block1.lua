@@ -6,3 +6,14 @@ while i<= x do
     print(x)
     i=i+1
 end
+
+if i > 20 then
+local x
+x=20
+print(x+2)
+else
+    print()
+    print(x)
+end 
+
+print(x)
