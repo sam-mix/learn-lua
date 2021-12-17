@@ -37,12 +37,12 @@ end
 
 
 local function plot(r,M,N)
-io.write("P1\n", M, " ", N, "\n") -- 头文件
+io.write("P1\n", M, "\n", N, "\n") -- 头文件
 for i = 1, N do
     local y = (N - i*2)/N
     for j = 1, M do
         local x = (j*2 -M)/M
-        io.write(r(x,y) and "1" or "0")
+        io.write(r(x,y) and "1\n" or "0\n")
     end
 end
 end
