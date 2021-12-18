@@ -1,5 +1,5 @@
 function foo() 
-    return
+    do return end
 
     local i = 1+1
     print(i)
